@@ -1,0 +1,364 @@
+* {
+  font-family: aerial;
+  margin: 0px;
+  padding: 0px;
+}
+
+a,
+a:link,
+a:active,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+#header {
+  background: #648CFF;
+  display: flex;
+}
+
+#header ul {
+  flex: 1;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+.logo {
+  height: 18px;
+  padding: 15px 0;
+  margin-left: 180px;
+}
+
+#header div {
+  margin-right: 100px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#header ul li {
+  display: inline-block;
+}
+
+#header ul li a {
+  padding: 10px;
+  color: white;
+  display: inline-block;
+}
+
+#header ul li a:hover {
+  transition: 1s;
+  background: #69f;
+}
+
+#header div a i {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+}
+
+#cover {
+  background: url("../images/homebg.png") no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  padding: 70px;
+}
+
+#cover div {
+  flex: 1;
+  padding: 0px 150px;
+}
+
+#cover div h1 {
+  color: #fff;
+  font-size: 60px;
+}
+
+#cover div a {
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  margin: 50px 10px;
+}
+
+#cover div #coverDownload {
+  padding: 15px 30px;
+  background: #fc6a42;
+}
+
+#cover div #coverFeature {
+  padding: 15px 40px;
+  background: #4466C9;
+}
+
+#feature {
+  padding: 40px;
+  text-align: center;
+}
+
+#feature h1 {
+  font-size: 35px;
+  color: #648CFF;
+}
+
+#feature p {
+  margin: 20px;
+  color: grey;
+}
+
+#features {
+  display: flex;
+  margin: 0 100px;
+}
+
+#features div {
+  display: flex;
+}
+
+#features div div {
+  display: block;
+}
+
+#features div div p {
+  color: grey;
+  padding: 20px 100px 0 20px;
+}
+
+#features div img {
+  width: 60px;
+  height: 60px;
+}
+
+#features div div h2 {
+  padding: 0 20px;
+}
+
+#slider {
+  margin: 50px;
+}
+
+#slider img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#screenshot {
+  padding: 40px;
+  text-align: center;
+}
+
+#screenshot h1 {
+  font-size: 35px;
+  color: #648CFF;
+}
+
+#screenshot p {
+  margin: 20px;
+  color: grey;
+}
+
+#screenshotCloud {
+  margin: 30px;
+  display: flex;
+}
+
+#screenshotCloud #cloud {
+  margin-left: 25%;
+}
+
+#screenshotCloud div {
+  padding: 100px;
+}
+
+#screenshotCloud div h1 {
+  padding: 40px 0;
+  font-size: 40px;
+}
+
+#screenshotCloud div p {
+  color: grey;
+  padding: 0 35% 0 0;
+  font-size: 20px;
+}
+
+#screenshotSun {
+  padding: 50px 0 0 0;
+  margin: 30px;
+  display: flex;
+}
+
+#screenshotSun #sun {
+  margin-right: 25%;
+}
+
+#screenshotSun div {
+  padding: 100px;
+  margin-left: 200px;
+}
+
+#screenshotSun div h1 {
+  padding: 40px 0;
+  font-size: 40px;
+}
+
+#screenshotSun div p {
+  color: grey;
+  padding: 0 15% 0 0;
+  font-size: 20px;
+}
+
+#screenshotRain {
+  padding: 50px 0 0 0;
+  margin: 30px;
+  display: flex;
+}
+
+#screenshotRain #rain {
+  margin-left: 25%;
+}
+
+#screenshotRain div {
+  padding: 100px;
+}
+
+#screenshotRain div h1 {
+  padding: 40px 0;
+  font-size: 40px;
+}
+
+#screenshotRain div p {
+  color: grey;
+  padding: 0 35% 0 0;
+  font-size: 20px;
+}
+
+#review {
+  padding: 50px 50px 0 50px;
+  text-align: center;
+}
+
+#review h1 {
+  font-size: 35px;
+  color: #648CFF;
+}
+
+#review p {
+  margin: 20px;
+  color: grey;
+}
+
+#reviews {
+  display: flex;
+  padding: 20px 0;
+}
+
+#reviews div div {
+  padding: 0 150px;
+}
+
+#reviews div div h3 {
+  font-size: 40px;
+  color: #648CFF;
+}
+
+#reviews div div .closing {
+  text-align: right;
+}
+
+#reviews div div h2 {
+  font-size: 20px;
+}
+
+#reviews div div p {
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+#download {
+  display: flex;
+  background: #648CFF;
+  padding: 60px 80px 0 80px;
+}
+
+#download div {
+  padding: 20px;
+  flex: 1;
+}
+
+#download div h1 {
+  font-size: 40px;
+  color: white;
+}
+
+#download div p {
+  color: white;
+  font-size: 20px;
+  padding: 20px 150px 0 0;
+}
+
+#download div a {
+  display: inline-block;
+  padding: 30px 10px 0 0;
+}
+
+#footer {
+  padding: 20px 0 0 0;
+  background: #353854;
+}
+
+#footer .footerItem {
+  display: flex;
+}
+
+#footer .footerItem ul {
+  flex: 1;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+#footer .footerItem div {
+  margin-right: 100px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#footer .footerItem ul li {
+  display: inline-block;
+}
+
+#footer .footerItem ul li a {
+  padding: 10px;
+  color: white;
+  display: inline-block;
+}
+
+#footer .footerItem ul li a:hover {
+  transition: 1s;
+  background: #545888;
+}
+
+#footer .footerItem div a i {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+}
+
+#footer hr {
+  border: none;
+  height: 2px;
+  margin: 10px 100px;
+  background-color: #3a3d5e;
+}
+
+#footer p {
+  padding: 30px 0;
+  text-align: center;
+  color: grey;
+}
